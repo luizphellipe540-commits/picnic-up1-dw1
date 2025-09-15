@@ -48,6 +48,7 @@ function App(): JSX.Element {
             {/* Video Container */}
             <div className="relative group mt-16">
               <div className="relative bg-black rounded-xl overflow-hidden shadow-[0_0_60px_16px_rgba(0,130,92,0.35)] transition-shadow duration-300">
+
                 <div className="relative aspect-video">
                   {play ? (
                     <ReactPlayer
@@ -127,10 +128,10 @@ function App(): JSX.Element {
                       <span className="text-amber-100 text-lg font-normal transform -translate-y-1">R$</span>
                       <span className="flex items-baseline leading-none">
                         <span className="bg-gradient-to-r from-yellow-300 to-yellow-400 bg-clip-text text-transparent text-[6rem] md:text-[10rem] font-extrabold tracking-tight">
-                          83
+                          10
                         </span>
                         <span className="bg-gradient-to-r from-yellow-300 to-yellow-400 bg-clip-text text-transparent text-4xl md:text-6xl font-extrabold ml-2">
-                          ,0
+                          ,50
                         </span>
                       </span>
                     </div>
