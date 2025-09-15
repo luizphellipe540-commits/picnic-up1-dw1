@@ -5,7 +5,7 @@ function App(): JSX.Element {
   const [mostrarOferta, setMostrarOferta] = useState<boolean>(false);
 
   // tempo em segundos antes de liberar a oferta
-  const tempo = 300;
+  const tempo = 78;
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -61,8 +61,8 @@ function App(): JSX.Element {
                 className="rounded-xl overflow-hidden shadow-[0_0_60px_16px_rgba(0,130,92,0.35)] transition-shadow duration-300"
               >
                 <iframe
-                  id="panda-b331e982-edeb-4298-876f-611f93e185a8"
-                  src="https://player-vz-9e787b14-a69.tv.pandavideo.com.br/embed/?v=b331e982-edeb-4298-876f-611f93e185a8"
+                  id="panda-8e550695-e259-48bc-a78a-931a3658f3ee"
+                  src="https://player-vz-9e787b14-a69.tv.pandavideo.com.br/embed/?v=8e550695-e259-48bc-a78a-931a3658f3ee"
                   style={{
                     border: 'none',
                     position: 'absolute',
