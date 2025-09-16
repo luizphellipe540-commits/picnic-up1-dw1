@@ -140,7 +140,7 @@ function App(): JSX.Element {
 
                       <button className="group text-red-700/80 hover:text-red-600/90 font-normal py-4 px-8 rounded-xl transition-all duration-300 hover:bg-red-900/30">
                         <div className="flex items-center justify-center space-x-2">
-                          <span>Eu decidi perder essa oportunidade!</span>
+                          <span>Obrigado, mas quero adiar meu sucesso</span>
                         </div>
                       </button>
                     </div>
